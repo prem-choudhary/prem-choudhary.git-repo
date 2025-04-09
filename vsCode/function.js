@@ -4,4 +4,4 @@ const greet = (name) => {
 };
 
 // Usage
-console.log(greet("World"));
+console.log(greet("World"));    
