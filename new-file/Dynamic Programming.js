@@ -34,6 +34,7 @@ function knapsack(values, weights, capacity) {
   const dp = Array(n + 1)
     .fill()
     .map(() => Array(capacity + 1).fill(0));
+    
 
   for (let i = 1; i <= n; i++) {
     for (let w = 1; w <= capacity; w++) {
