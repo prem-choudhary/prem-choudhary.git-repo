@@ -5,6 +5,7 @@ function addNumbers(a, b) {
     return a + b;
 }
 
+
 // Example usage
 const num1 = 5;
 const num2 = 10;
